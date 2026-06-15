@@ -32,7 +32,6 @@ let package = Package(
                 .headerSearchPath("xgrammar/include"),
                 .headerSearchPath("xgrammar/3rdparty/dlpack/include"),
                 .headerSearchPath("xgrammar/3rdparty/picojson"),
-                .unsafeFlags(["-w"]),
             ]
         ),
         // Main package
